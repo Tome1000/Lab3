@@ -1,0 +1,20 @@
+﻿@model Lab3.Models.User
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sukces</title>
+</head>
+<body>
+    <h1>Rejestracja zakończona pomyślnie!</h1>
+    <p>Oto dane zarejestrowanego użytkownika:</p>
+    <ul>
+        <li>Imię: @Model.FirstName</li>
+        <li>Nazwisko: @Model.LastName</li>
+        <li>Email: @Model.Email</li>
+        <li>Numer telefonu: @Model.PhoneNumber</li>
+        <li>Wiek: @Model.Age</li>
+        <li>Miasto: @Model.City</li>
+    </ul>
+</body>
+</html>

@@ -15,7 +15,7 @@ namespace Lab3.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(new User());
         }
 
         public IActionResult Privacy()
@@ -27,6 +27,21 @@ namespace Lab3.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+    
+
+        [HttpPost]
+        public IActionResult Index(User model)
+        {
+            if (ModelState.IsValid)
+            {
+                ViewBag.RegistrationSuccess = true;
+                return View("Success", model);
+            }
+
+            ViewBag.RegistrationSuccess = false;
+            return View(model);
         }
     }
 }

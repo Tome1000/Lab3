@@ -28,3 +28,4 @@ C:\Users\Zalman\Source\Repos\Lab3\Lab3\obj\Debug\net8.0\refint\Lab3.dll
 C:\Users\Zalman\Source\Repos\Lab3\Lab3\obj\Debug\net8.0\Lab3.pdb
 C:\Users\Zalman\Source\Repos\Lab3\Lab3\obj\Debug\net8.0\Lab3.genruntimeconfig.cache
 C:\Users\Zalman\Source\Repos\Lab3\Lab3\obj\Debug\net8.0\ref\Lab3.dll
+C:\Users\Zalman\Source\Repos\Lab3\Lab3\obj\Debug\net8.0\Lab3.sourcelink.json
